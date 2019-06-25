@@ -1,1 +1,3 @@
+# Indefinite Multiple Integration of Scalar and Vector Differentials
 
+Given a coordinate system and an n-volume whose lines are aligned with the coordinate grid, we can form the definite multiple integral of a large class of differentials by the method of computing an indefinite integral, which is evaluated only at the corners of the boundary of the n-volume.
