@@ -4,6 +4,54 @@ Given a coordinate system and an n-volume whose lines are aligned with the coord
 
 I will be using Clifford's Vector Algebra
 
+
+---
+
+# Ingredients
+
+R is the position vector, and dR is its differential.
+
+By "element of the clifford algera", I mean any constant element.
+
+A monomial is any product of elements of the clifford algebra and any number of R's.  The rank of the monomial is the number of R's.
+
+A polynomial is a linear combination of scalars and monomials.  The rank of a polynomial is the largest rank of any of its component monomials.
+
+A linear polynomial is a polynomial of rank 1.
+
+The elementary differentials are products of monomials, inverse linear polynomials, and dR's.  The rank of an elementary differential is the number of dR's.
+
+A differential is any linear combination of elementary differentials of equal rank.
+
+# Indefinite (Multiple) Integral
+
+The indefinite n-integral is always taken over an n-volume that is aligned to the coordinate grid expressed by the vector algebra.
+
+To form the indefinite integral of an elementary differential, simply promote any single dR to an R and count n(R), the total number of R's (including negative powers of R) in the final product.  If n(R) is non-zero, then multiply the result by 1/n(R) to get the final result.  The case of n(R) = 0 will be handled in the natural log section below.
+
+To form the indefinite integral of a general differential, simply break the differential into elementary differentials and integrate each one separately.
+
+# Natural Logs
+
+Sorry, I don't know how to handle this case yet
+
+# Definite (Multiple) Integrals
+
+Consider a rank-n differential and an n-volume in the differential's domain.
+
+First, approximate the n-volume as an n-volume that aligns with the coordinate grid.
+
+To evaluate the definite n-integral of the differential over this approximated n-volume: First, calculate the indefinite n-integral of the differential.  Next, evaluate the indefinite n-integral at each corner of the approximated n-volume's corners.  Finally, alternately add and subtract this value at each corner of the boundary of the approximated n-boundary.
+
+# Example
+
+<img src="https://latex.codecogs.com/gif.latex?\int&space;\int&space;dR&space;\hat{y}&space;R&space;\hat{x}&space;dR&space;=&space;\frac{1}{6}&space;R&space;\hat{y}&space;R&space;\hat{x}&space;R&space;=&space;I(R)" title="\int \int dR \hat{y} R \hat{x} dR = \frac{1}{6} R \hat{y} R \hat{x} R = I(R)" />
+
+---
+
+# Everything below here is old
+
+
 # Ingredients
 
 Given either coordinate functions <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" />'s or basis clifford vectors <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" />'s
