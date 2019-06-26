@@ -4,6 +4,42 @@ Given a coordinate system and an n-volume whose lines are aligned with the coord
 
 I will be using Clifford's Vector Algebra
 
+# Ingredients
+
+Given either coordinate functions <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" />'s or basis clifford vectors <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" />'s
+
+The basis differentials are the set of <img src="https://latex.codecogs.com/gif.latex?dx_i" title="dx_i" />'s
+
+A monomial is any product of <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" />'s.  The rank of a monomial is the number of <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" />'s.
+
+A polynomial is a linear combination of scalars (constants) and monomials.  The rank of a polynomial is the largest rank of any of its component monomials.
+
+A linear polynomial (or linear function) is a polynomial with rank 1.
+
+The elemntary differentials I will consider are products of <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" />'s, inverses of linear polynomials, and at least one <img src="https://latex.codecogs.com/gif.latex?dx_i" title="dx_i" />.  The rank of an elementary differential is the number of <img src="https://latex.codecogs.com/gif.latex?dx_i" title="dx_i" />'s in the product.
+
+The differentials we will consider will be linear combinations of elementary differentials of equal rank.
+
+We will call the coordinate functions <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" /> (not basis vectors) that appear in the differential, its "parameters".
+
+# Note
+
+With my definition of elementary differential, in each connected component of the domain of a differential, for each parameter <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" /> of the differential, there is at least exactly value of <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" /> for which the differential is 0 (for arbitrary values of the other parameters).
+
+# The Indefinite Integral
+
+To form the form the indefinite integral of any elemntary differential, the order of integration does not matter, so we can pick any <img src="https://latex.codecogs.com/gif.latex?dx_i" title="dx_i" /> to integrate over first.  All such integrals are equal as long as the n-volume we integrate over is aligned with the coordinate grid.  Second, if need be, we note that, along the grid, <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" /> is proportional to <img src="https://latex.codecogs.com/gif.latex?dx_i" title="dx_i" />, and we use the commutation rules of the coordinate basis to simplify the product.  Finally, for any arbitrary point in the domain of the elementary differential, the indefinite integral is that integral that starts at that <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" />, for which the elementary differential is 0, and at ends at the arbitrary point.
+
+The indefinite integral of any other differential is equal to the sum of the indefinite integrals of its elementary differentials.
+
+# Forming a Definite Integral from the Indefinite Multiple Integral
+
+Consider a rank-n differential.  (We'll assume that its parameters are x_1 to x_n) and form its indefinite integral I(x_1, ..., x_n)
+
+Next, consider any (oriented) n-volume in the domain of the differential, and approximate it as an (oriented) n-volume that is aligned with the grid.
+
+To evaluate the definite integral of the differential over this approximated n-volume, simply evaluate I(x_1, ..., x_n) at each corner of the approximated n-volume's boundary, and alternately add and subtract each value.
+
 # Examples
 
 For x, y either scalars or vectors
