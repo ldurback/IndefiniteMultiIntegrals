@@ -16,7 +16,7 @@ A polynomial is a linear combination of scalars (constants) and monomials.  The 
 
 A linear polynomial (or linear function) is a polynomial with rank 1.
 
-The elemntary differentials I will consider are products of <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" />'s, inverses of linear polynomials, and at least one <img src="https://latex.codecogs.com/gif.latex?dx_i" title="dx_i" />.  The rank of an elementary differential is the number of <img src="https://latex.codecogs.com/gif.latex?dx_i" title="dx_i" />'s in the product.
+The elemntary differentials I will consider are products of <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" />'s, inverses of polynomials, and at least one <img src="https://latex.codecogs.com/gif.latex?dx_i" title="dx_i" />.  The rank of an elementary differential is the number of <img src="https://latex.codecogs.com/gif.latex?dx_i" title="dx_i" />'s in the product.
 
 The differentials we will consider will be linear combinations of elementary differentials of equal rank.
 
@@ -24,7 +24,7 @@ We will call the coordinate functions <img src="https://latex.codecogs.com/gif.l
 
 # Note
 
-With my definition of elementary differential, in each connected component of the domain of a differential, for each parameter <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" /> of the differential, there is at least exactly value of <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" /> for which the differential is 0 (for arbitrary values of the other parameters).
+With my definition of elementary differential, in each connected component of the domain of a differential, for each parameter <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" /> of the element differential, there is at exactly 1 value of <img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" /> for which the elementary differential is 0 for arbitrary values of the other parameters.  Note also that this value is always 0, infinity, or -infinity.
 
 # The Indefinite Integral
 
@@ -32,13 +32,17 @@ To form the form the indefinite integral of any elemntary differential, the orde
 
 The indefinite integral of any other differential is equal to the sum of the indefinite integrals of its elementary differentials.
 
-# Forming a Definite Integral from the Indefinite Multiple Integral
+# Note
 
-Consider a rank-n differential.  (We'll assume that its parameters are x_1 to x_n) and form its indefinite integral I(x_1, ..., x_n)
+By my definition of differentials and indefinite integrals, any indefinite integral has 0 scalar term.
+
+# Forming a Definite (Multiple) Integral from the Indefinite (Multiple) Integral
+
+Consider a rank-n differential.  (We'll assume that its parameters are x_1 to x_n) and form its indefinite n-integral I(x_1, ..., x_n)
 
 Next, consider any (oriented) n-volume in the domain of the differential, and approximate it as an (oriented) n-volume that is aligned with the grid.
 
-To evaluate the definite integral of the differential over this approximated n-volume, simply evaluate I(x_1, ..., x_n) at each corner of the approximated n-volume's boundary, and alternately add and subtract each value.
+To evaluate the definite n-integral of the differential over this approximated n-volume, simply evaluate I(x_1, ..., x_n) at each corner of the approximated n-volume's boundary, and alternately add and subtract each value.
 
 # Examples
 
