@@ -55,3 +55,15 @@ Letting <img src="https://latex.codecogs.com/gif.latex?F(x,y)&space;=&space;-\fr
 <img src="https://latex.codecogs.com/gif.latex?\int_{y_1}^{y_2}&space;\int_{x_1}^{x_2}&space;x^{-2}&space;y&space;dx&space;dy&space;=&space;F(x_2,&space;y_2)&space;-&space;F(x_2,&space;y_1)&space;&plus;&space;F(x_1,&space;y_1)&space;-&space;F(x_1,&space;y_2)" title="\int_{y_1}^{y_2} \int_{x_1}^{x_2} x^{-2} y dx dy = F(x_2, y_2) - F(x_2, y_1) + F(x_1, y_1) - F(x_1, y_2)" />
 
 Similarly, we can form this integral over any other area whose boundary is aligned with the coordinate grid by evaluating F(x,y) at the corners of the boundary and alternately adding and subtracting these values.
+
+# Problems with repeated integration
+
+With repeated integration, we can only use the above formulation of the indefinite integral to form definite integrals of the form
+
+<img src="https://latex.codecogs.com/gif.latex?\int_a^b&space;\int_{zero}^x&space;\cdots&space;\int_{zero}^x&space;\omega" title="\int_a^b \int_{zero}^x \cdots \int_{zero}^x \omega" />
+
+where "zero" is that value of x that makes omega = 0.
+
+For instance, <img src="https://latex.codecogs.com/gif.latex?\int&space;\int&space;\int&space;dx^3&space;=&space;\frac{1}{6}&space;x^3" title="\int \int \int dx^3 = \frac{1}{6} x^3" /> only allows us to form the definite integral
+
+<img src="https://latex.codecogs.com/gif.latex?\int_a^b&space;\int_0^x&space;\int_0^x&space;dx^3&space;=&space;\frac{1}{6}&space;b^3&space;-&space;\frac{1}{6}&space;a^3" title="\int_a^b \int_0^x \int_0^x dx^3 = \frac{1}{6} b^3 - \frac{1}{6} a^3" />
