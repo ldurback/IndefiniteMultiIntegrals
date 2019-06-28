@@ -49,7 +49,7 @@ To take the indefinite integral of any elementary contracted monomial differenti
 
 For instance
 
-<img src="polynomial integral examples.png" title="polynomial integral examples" />
+<img src="monomial integral examples.png" title="monomial integral examples" />
 
 ---
 
