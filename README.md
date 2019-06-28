@@ -45,11 +45,17 @@ An elemnentary contracted monomial differential is one where all R's and dR's ar
 
 # Indefinite (Multiple) Integral of Polynomial Differentials
 
-To take the indefinite integral of any elementary contracted monomial differential, simply promote any one of the dR's to an R (it does not matter which, each of these integrals are equal), count n_eq(R) the number of R's equally contracted onto that R that was just promoted (including that R), and multiply the result by 1/n_eq(R).
+To take the indefinite integral of any elementary contracted monomial differential, simply promote any one of the dR's to an R (it does not matter which, each of these integrals are equal), count n_eq_R, the number of R's equally contracted onto that R that was just promoted (including that R), and multiply the result by 1/n_eq_R.
 
 For instance
 
 <img src="monomial integral examples.png" title="monomial integral examples" />
+
+# Computing a Definite Integral from the Indefinite Integral
+
+TO COME
+
+Hard to explain :(
 
 ---
 
