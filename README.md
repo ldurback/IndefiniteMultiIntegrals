@@ -1,5 +1,7 @@
 # Indefinite Multiple Integration of Scalar and Vector Differentials
 
+# NOTE:  I currently only have a theory of integrating polynomial differentials
+
 Given an coordinate system and an n-volume whose lines are aligned with the coordinate grid, we can form the definite multiple integral of a large class of differentials by the method of computing an indefinite integral, which is evaluated only at the corners of the boundary of the n-volume.  For an n-volume whose lines are not aligned with the coordinate grid, we can first approximate the n-volume as one whose lines are aligned with the coordinate grid.  This allows us to take approximate multiple integrals of a large class of differentials.
 
 I will be using Clifford's Vector Algebra, and I will assume flat (Euclidean or Minkowsi) space.
@@ -17,13 +19,9 @@ A monomial is any product of elements of the clifford algebra and any number of 
 
 A polynomial is a linear combination of scalars and monomials.  The rank of a polynomial is the largest rank of any of its component monomials.
 
-A linear polynomial is a polynomial of rank 1.
-
 An elementary monomial differential is a product of monomials and dR's.  The rank of an elementary monomial differential is the number of dR's.
 
 A polynomial differential is any linear combination of elementary monomial differentials of equal rank.
-
-The elementary differentials are products of monomials, R^{-1}'s, and dR's.  The rank of an elementary differential is the number of dR's.
 
 # Equal and Unequal Contractions
 
@@ -55,9 +53,14 @@ For instance
 
 # Computing a Definite Integral from the Indefinite Integral
 
-We can intepret the full indefinite integral of an elementary contracted monomial differential as being a combination of repeated integrations and volume integrations.
+We can intepret the full indefinite integral of an elementary contracted monomial differential as being a combination of repeated integrations from R=0 and volume integrations.
 
 The equal contraction of multiple dR's corresponds to a repeated integral.  The unequal contraction of multiple dR's corresponds to a volume integral.
+
+Consider a differential of rank n in which all dR's are equally contracted.  In this case, an nth indefinite integral will turn this into a function F(R), which we can use to evaluate an nth repeated definite integral (from R=0) between an arbitrary start and end point as:  F(end) - F(start)
+
+Consider a differential of rank n in which all dR's are unequally contracted.  In this case, an nth indefinite integral will turn this into a function F(R), which we can use to evaluate an n-volume definite integral.  First, approximate the volume of integration as a figure whose lines are along the coordinate axes.  Next, evaluate F(R) at each corner of the approximated figure and alternately add and subtract these values until all corners are covered.
+
 
 MORE TO COME
 
