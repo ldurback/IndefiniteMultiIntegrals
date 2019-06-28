@@ -25,6 +25,16 @@ A polynomial differential is any linear combination of elementary monomial diffe
 
 The elementary differentials are products of monomials, R^{-1}'s, and dR's.  The rank of an elementary differential is the number of dR's.
 
+# Equal and Unequal Contractions
+
+Consider any two vectors, v and w, and any element of the clifford algebra, A.
+
+If the coordinate vectors (not components) of v are {v_i} and the coordinate vectors of w are {w_i}, then we can define the equal and unequal contractions v and w in any product vAw as so
+
+<img src="equal contraction definition.png" title="equal contraction definition" />
+
+<img src="unequal contraction definition.png" title="unequal contraction definition" />
+
 # Indefinite (Multiple) Integral
 
 Guh... need to use diagrams to explain this.  I need to hand draw a bunch of stuff and upload it.
