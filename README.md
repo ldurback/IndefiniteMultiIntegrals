@@ -1,6 +1,6 @@
 # Indefinite Multiple Integration of Scalar and Vector Differentials
 
-Given a coordinate system and an n-volume whose lines are aligned with the coordinate grid, we can form the definite multiple integral of a large class of differentials by the method of computing an indefinite integral, which is evaluated only at the corners of the boundary of the n-volume.  For an n-volume whose lines are not aligned with the coordinate grid, we can first approximate the n-volume as one whose lines are aligned with the coordinate grid.  This allows us to take approximate multiple integrals of a large class of differentials.
+Given an coordinate system and an n-volume whose lines are aligned with the coordinate grid, we can form the definite multiple integral of a large class of differentials by the method of computing an indefinite integral, which is evaluated only at the corners of the boundary of the n-volume.  For an n-volume whose lines are not aligned with the coordinate grid, we can first approximate the n-volume as one whose lines are aligned with the coordinate grid.  This allows us to take approximate multiple integrals of a large class of differentials.
 
 I will be using Clifford's Vector Algebra
 
@@ -39,9 +39,17 @@ We can now epxand vAw in terms of the contractions
 
 <img src="expansion in contractions.png" title="expansion in contractions" />
 
-# Indefinite (Multiple) Integral
+# Elementary Contracted Monomial Differentials
 
-Guh... need to use diagrams to explain this.  I need to hand draw a bunch of stuff and upload it.
+An elemnentary contracted monomial differential is one where all R's and dR's are fully contracted.
+
+# Indefinite (Multiple) Integral of Polynomial Differentials
+
+To take the indefinite integral of any elementary contracted monomial differential, simply promote any one of the dR's to an R (it does not matter which, each of these integrals are equal), count n_eq(R) the number of R's equally contracted onto that R that was just promoted (including that R), and multiply the result by 1/n_eq(R).
+
+For instance
+
+<img src="polynomial integral examples.png" title="polynomial integral examples" />
 
 ---
 
