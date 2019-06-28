@@ -35,6 +35,10 @@ If the coordinate vectors (not components) of v are {v_i} and the coordinate vec
 
 <img src="unequal contraction definition.png" title="unequal contraction definition" />
 
+We can now epxand vAw in terms of the contractions
+
+<img src="expansion in contractions.png" title="expansion in contractions" />
+
 # Indefinite (Multiple) Integral
 
 Guh... need to use diagrams to explain this.  I need to hand draw a bunch of stuff and upload it.
