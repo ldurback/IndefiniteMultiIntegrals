@@ -2,7 +2,7 @@
 
 Given an coordinate system and an n-volume whose lines are aligned with the coordinate grid, we can form the definite multiple integral of a large class of differentials by the method of computing an indefinite integral, which is evaluated only at the corners of the boundary of the n-volume.  For an n-volume whose lines are not aligned with the coordinate grid, we can first approximate the n-volume as one whose lines are aligned with the coordinate grid.  This allows us to take approximate multiple integrals of a large class of differentials.
 
-I will be using Clifford's Vector Algebra
+I will be using Clifford's Vector Algebra, and I will assume flat (Euclidean or Minkowsi) space.
 
 
 ---
