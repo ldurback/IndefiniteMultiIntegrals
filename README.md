@@ -19,29 +19,15 @@ A polynomial is a linear combination of scalars and monomials.  The rank of a po
 
 A linear polynomial is a polynomial of rank 1.
 
-The elementary differentials are products of monomials, R^{-1}'s, and dR's.  The rank of an elementary differential is the number of dR's.
+An elementary monomial differential is a product of monomials and dR's.  The rank of an elementary monomial differential is the number of dR's.
 
-A differential is any linear combination of elementary differentials of equal rank.
+A polynomial differential is any linear combination of elementary monomial differentials of equal rank.
+
+The elementary differentials are products of monomials, R^{-1}'s, and dR's.  The rank of an elementary differential is the number of dR's.
 
 # Indefinite (Multiple) Integral
 
-The indefinite n-integral is always taken over an n-volume that is aligned to the coordinate grid expressed by the vector algebra.
-
-To form the indefinite integral of an elementary differential, simply promote any single dR to an R and count n(R), the total number of R's (including negative powers of R) in the final product.  If n(R) is non-zero, then multiply the result by 1/n(R) to get the final result.  In the case of n(R) = 0, multiply the result by ln|R| to get the final result.
-
-To form the indefinite integral of a general differential, transform break the differential into elementary differentials and integrate each one separately.
-
-# Definite (Multiple) Integrals
-
-Consider a rank-n differential and an n-volume in the differential's domain.
-
-First, approximate the n-volume as an n-volume that aligns with the coordinate grid.
-
-To evaluate the definite n-integral of the differential over this approximated n-volume: First, calculate the indefinite n-integral of the differential.  Next, evaluate the indefinite n-integral at each corner of the approximated n-volume's corners.  Finally, alternately add and subtract this value at each corner of the boundary of the approximated n-boundary.
-
-# Example
-
-<img src="https://latex.codecogs.com/gif.latex?\int&space;\int&space;dR&space;\hat{y}&space;R&space;\hat{x}&space;dR&space;=&space;\frac{1}{6}&space;R&space;\hat{y}&space;R&space;\hat{x}&space;R&space;=&space;I(R)" title="\int \int dR \hat{y} R \hat{x} dR = \frac{1}{6} R \hat{y} R \hat{x} R = I(R)" />
+Guh... need to use diagrams to explain this.  I need to hand draw a bunch of stuff and upload it.
 
 ---
 
