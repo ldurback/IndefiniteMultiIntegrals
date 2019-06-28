@@ -39,6 +39,8 @@ We can now epxand vAw in terms of the contractions
 
 <img src="expansion in contractions.png" title="expansion in contractions" />
 
+Note that the equal contraction generalizes the dot product and the unequal contraction generalizes the wedge product.
+
 # Elementary Contracted Monomial Differentials
 
 An elemnentary contracted monomial differential is one where all R's and dR's are fully contracted.
@@ -53,7 +55,11 @@ For instance
 
 # Computing a Definite Integral from the Indefinite Integral
 
-TO COME
+We can intepret the full indefinite integral of an elementary contracted monomial differential as being a combination of repeated integrations and volume integrations.
+
+The equal contraction of multiple dR's corresponds to a repeated integral.  The unequal contraction of multiple dR's corresponds to a volume integral.
+
+MORE TO COME
 
 Hard to explain :(
 
